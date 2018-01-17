@@ -33,9 +33,5 @@ if zplug check zsh-users/zsh-history-substring-search; then
     bindkey '\eOB' history-substring-search-down
 fi
 
-ZSH_HIGHLIGHT_STYLES[suffix-alias]=fg=yellow,underline
-ZSH_HIGHLIGHT_STYLES[precommand]=fg=yellow,underline
-ZSH_HIGHLIGHT_STYLES[arg0]=fg=yellow
-
 [ -f ~/.zprofile ] && source ~/.zprofile
 [ -f ~/.zalias ] && source ~/.zalias

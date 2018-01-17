@@ -8,7 +8,7 @@ zplug "zsh-users/zsh-syntax-highlighting", defer:2 # Should be loaded 2nd last.
 zplug "zsh-users/zsh-history-substring-search", defer:3 # Should be loaded last.
 zplug "mafredri/zsh-async", defer:0
 zplug "sindresorhus/pure", use:pure.zsh, as:theme
-zplug "chriskempson/base16-shell", use:"scripts/base16-dracula.sh", defer:0
+zplug "koppelbakje/base16-shell", use:"scripts/base16-dracula.sh", defer:0
 zplug "docker/compose", use:contrib/completion/zsh
 zplug "docker/cli", use:contrib/completion/zsh
 

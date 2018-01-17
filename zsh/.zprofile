@@ -12,6 +12,6 @@ export PAGER='less'
 
 path=(
   /usr/local/{bin,sbin}
-  $HOME/.npm/bin
+  $HOME/.npm/packages/bin
   $path
 )
